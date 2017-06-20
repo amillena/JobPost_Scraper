@@ -1,1 +1,1 @@
-# JobPost_Scraper
+# JobPosts_Scraper

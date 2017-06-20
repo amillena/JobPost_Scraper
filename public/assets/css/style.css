@@ -1,0 +1,37 @@
+body{
+
+  /*font-family: 'PT Sans Narrow', sans-serif;*/
+  //font-family: 'Patua One', cursive;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#displayNewspaperGif {
+
+    /*background-image: url("../img/newsPrint.gif");*/
+    background-color: #82a6b8;
+    background-image: url("../img/scan.gif");
+    background-repeat: no-repeat;
+    color: white;
+    height: 250px;
+    /*background-color: #cccccc;*/
+}
+
+.card-img-top {
+  height: 140px;
+  width: 238px;
+}
+
+li {
+  font-size: 20px;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.saveArticle {
+  background-color: #F8C471;
+  border-color: #F8C471;
+}
+
+
