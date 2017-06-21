@@ -31,7 +31,18 @@ app.set("view engine", "handlebars");
 //mongoose.connect("mongodb://heroku_3g888fzh:5ui81vhbuai5umnscnv1dulk7l@ds153710.mlab.com:53710/heroku_3g888fzh");
 //var db = mongoose.connection;
 
-mongoose.connect("mongodb://localhost/mongojobs");
+//mongoose.connect("mongodb://localhost/mongojobs");
+
+//Database configuration with mongoose
+var databaseUri = "mongodb://localhost/mongojobs";
+  if (process.env.MONGODB_URI) {
+    mongoose.connect(process.env.MONGODB_URI);
+    }else{
+    mongoose.connect(databaseUri);
+  }
+
+
+
 var db = mongoose.connection;
 
 // Show any mongoose errors
