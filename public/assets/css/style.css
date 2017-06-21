@@ -3,8 +3,13 @@ body{
   /*font-family: 'PT Sans Narrow', sans-serif;*/
   //font-family: 'Patua One', cursive;
   font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
-
+.btn{
+  font-size: 20px;
+  font-weight: bold;
+}
 #displayNewspaperGif {
 
     /*background-image: url("../img/newsPrint.gif");*/
