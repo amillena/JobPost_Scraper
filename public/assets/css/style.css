@@ -21,6 +21,10 @@ body{
     /*background-color: #cccccc;*/
 }
 
+.jumbotron{
+  background-color: #82A6E5;
+}
+
 .card-img-top {
   height: 140px;
   width: 238px;
